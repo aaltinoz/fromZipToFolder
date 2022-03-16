@@ -1,6 +1,14 @@
 #! python3
 # fromZipToFolderAll.py - move compressed file with a specfic extension from zip file to demanded folder
 
+# source and destination variable format example: "C:\\Users\Dell\\Desktop"
+# extension format example: ".html" or [".html", ".csv"]
+# previosulyCreatedList: ['00d1da5b-6aef-4ef5-a09b-39f18af5bdd8_f.zip',
+#                         '110558ee-475b-4a4f-921e-772703d89bf3_f.zip',
+#                         '268de466-f128-47e3-ac19-915de2b9372b_f.zip',
+#                         '2ec37a76-f2e7-4811-9f60-c3c3c3e92bf5_f.zip',
+#                         '3a94dac3-878f-42c1-9668-87b282cd645f_f.zip'] if its first time running [] empty list can be passed to function
+
 
 def zipToFolder(source, destination, extension, previouslyCreatedList):
     # encoding:utf-8
