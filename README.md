@@ -15,8 +15,8 @@ Without code, process will look like this:
 * open zip file >>
 * open invoice(to see customer name) >>
 * open target desination >>
-* check whether there is a year.month folder, if not create it
-* extract the invoice to corresponding year.month folder at target directory
+* check whether there is a year.month folder, if not create it >>
+* extract the invoice to corresponding year.month folder at target directory >>
 * rename the invoice file to customer_name-day.month format 
 
 This function automizes this process. Detailed version of usage of this function will be explained in a medium post link will be posted <here>.
